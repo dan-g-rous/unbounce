@@ -7,7 +7,7 @@
     $('#email').val(response.email);
     $('#name').val(response.name);
       
-    //Uncomment the lines if you require the additional data
+    //Uncomment the lines below if you require the additional data
       
     //$('#firstNameField').val(response.first_name);
     //$('#lastNameField').val(response.last_name);
