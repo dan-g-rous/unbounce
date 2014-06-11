@@ -49,6 +49,7 @@
     });
   }
 
+  // Update appId below to reflect your Facebook Apps ID
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '552705011513631',
