@@ -14,11 +14,11 @@
     //$('#linkField').val(response.link);
     //$('#genderField').val(response.gender);
     
+    //The form willl submit by default. To disable this comment the line below
     lp.jQuery('.lp-pom-form .lp-pom-button').click();
   }
   
-  
-  // Check Login Status of Visitor
+
   function statusChangeCallback(response) {
     
     if (response.status === 'connected') {
@@ -60,7 +60,7 @@
 
   };
 
-  // Load the SDK asynchronously
+
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
